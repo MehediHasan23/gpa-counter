@@ -1,3 +1,5 @@
+/* selected all element */
+
 let inputs = document.querySelectorAll(".inputs");
 
 let bangla = document.getElementById("bangla");
@@ -16,6 +18,8 @@ let gdPoint = document.getElementById("grade_point");
 
 let pass_mark = document.getElementById("pass_mark");
 
+/*  selected input field */
+
 for (let input of inputs) {
   input.addEventListener("input", function (e) {
     if (input.value > 100 || input.value < 0) {
@@ -24,6 +28,8 @@ for (let input of inputs) {
     }
   });
 }
+
+/* added click event */
 
 document.getElementById("add_mark").addEventListener("click", function (e) {
   totalMark.innerHTML =
@@ -61,3 +67,5 @@ document.getElementById("add_mark").addEventListener("click", function (e) {
     gdPoint.innerHTML = "F";
   }
 });
+
+/* thats all */
