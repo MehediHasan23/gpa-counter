@@ -1,0 +1,48 @@
+.container{
+    height: 600px;
+    width: 500px;
+    background:rgba(0, 115, 119, 0.616);
+    margin: 45px auto;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+}
+h1{
+    color: white;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 115, 119, 0.616);
+    border: 0;
+    outline: 0;
+    background-color: rgba(128, 128, 128, 0.568);
+    border: 1px solid white;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    padding: 10px 16px;
+    background-color: rgba(128, 128, 128, 0.568);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(99, 7, 87, 0.795);
+}
+.inner_total h2{
+    color: white;
+    text-align: justify;
+    line-height: 18px;
+}
