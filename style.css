@@ -1,7 +1,7 @@
 .container{
     height: 600px;
     width: 500px;
-    background:rgba(0, 115, 119, 0.616);
+    background:rgba(206, 206, 206, 0.842);
     margin: 45px auto;
     padding: 15px;
     text-align: center;
@@ -9,7 +9,7 @@
     border-radius: 5px;
 }
 h1{
-    color: white;
+    color: rgb(32, 25, 25);
 }
 input{
     width: 90%;
@@ -42,7 +42,7 @@ button:hover{
     background-color: rgba(99, 7, 87, 0.795);
 }
 .inner_total h2{
-    color: white;
+    color: rgb(15, 15, 15);
     text-align: justify;
     line-height: 18px;
 }
