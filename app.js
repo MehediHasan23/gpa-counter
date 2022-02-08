@@ -32,13 +32,18 @@ for (let input of inputs) {
 /* added click event */
 
 document.getElementById("add_mark").addEventListener("click", function (e) {
+  /* sub total mark */
   totalMark.innerHTML =
     parseInt(bangla.value) +
     parseInt(english.value) +
     parseInt(physics.value) +
     parseInt(math.value);
 
+  /* average mark */
+
   avgMark.innerHTML = (totalMark.innerHTML / 4).toFixed(2);
+
+  /* select all input field */
 
   for (let input of inputs) {
     if (input.value < 33) {
@@ -50,6 +55,8 @@ document.getElementById("add_mark").addEventListener("click", function (e) {
       pass_mark.innerHTML = "passed";
     }
   }
+
+  /* added grade point */
 
   if (avgMark.innerHTML >= 33 && avgMark.innerHTML <= 49) {
     gdPoint.innerHTML = "D";
