@@ -58,7 +58,7 @@ document.getElementById("add_mark").addEventListener("click", function (e) {
 
   /* added grade point */
 
-  if (avgMark.innerHTML >= 33 && avgMark.innerHTML <= 49) {
+  if (avgMark.innerHTML >= 33 && avgMark.innerHTML <= 39) {
     gdPoint.innerHTML = "D";
   } else if (avgMark.innerHTML >= 40 && avgMark.innerHTML <= 49) {
     gdPoint.innerHTML = "C";
