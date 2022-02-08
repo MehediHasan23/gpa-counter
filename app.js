@@ -38,7 +38,7 @@ document.getElementById("add_mark").addEventListener("click", function (e) {
     parseInt(physics.value) +
     parseInt(math.value);
 
-  avgMark.innerHTML = totalMark.innerHTML / 4;
+  avgMark.innerHTML = (totalMark.innerHTML / 4).toFixed(2);
 
   for (let input of inputs) {
     if (input.value < 33) {
