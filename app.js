@@ -33,6 +33,14 @@ for (let input of inputs) {
 
 document.getElementById("add_mark").addEventListener("click", function (e) {
   /* sub total mark */
+
+  for (let input of inputs) {
+    if (input.value === '') {
+      alert('pls give a valid num')
+      return
+    }
+  }
+
   totalMark.innerHTML =
     parseInt(bangla.value) +
     parseInt(english.value) +
